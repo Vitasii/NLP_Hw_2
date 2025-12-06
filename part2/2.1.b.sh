@@ -1,7 +1,6 @@
 #!/bin/bash
 
-export WANDB_API_KEY="a3619e4c4b3fa4c06a492eb2b3e24bb3c9fc67dc"
-export WANDB_PROJECT="NLP2025_2024011315"
+source .env
 export WANDB_NAME=TASK_2_1_2
 cd /root/LLaMA-Factory
 # 运行训练
