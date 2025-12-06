@@ -1,0 +1,12 @@
+
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - defaults
+show_channel_urls: true
+        
+envs_dirs:
+  - /root/autodl-tmp/miniconda3
+pkgs_dirs:
+  - /root/autodl-tmp/miniconda3

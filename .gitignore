@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Model checkpoints and large files
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Output directories
+output/
+runs/
+wandb/
+results/
+logs/
+
+# Data
+data/
+dataset/
