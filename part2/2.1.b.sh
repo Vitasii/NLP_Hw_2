@@ -1,11 +1,13 @@
 #!/bin/bash
 
+set -a
 source .env
+set +a
 export WANDB_NAME=TASK_2_1_2
-cd /root/LLaMA-Factory
+cd /root/autodl-tmp/LLaMA-Factory
 # 运行训练
 FORCE_TORCHRUN=1 llamafactory-cli train \
-  /root/LLaMA-Factory/examples/train_full/llama3_full_sft.yaml \
+  /root/autodl-tmp/LLaMA-Factory/examples/train_full/llama3_full_sft.yaml \
   model_name_or_path=Qwen/Qwen2.5-0.5B-Instruct \
   report_to=wandb \
   dataset=alpaca_en_demo \
